@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ConfiguracoesLayout"></activity>
+        <activity android:name=".SobreLayout" />
+        <activity android:name=".Compartilhar_Layout" />
+        <activity android:name=".Favoritos_Layout" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/TemaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
