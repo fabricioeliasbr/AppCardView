@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mSobre:
                 startActivity(new Intent(MainActivity.this, SobreLayout.class));
                 break;
+            case R.id.mTempo:
+                startActivity(new Intent(MainActivity.this, TempoLayout.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
